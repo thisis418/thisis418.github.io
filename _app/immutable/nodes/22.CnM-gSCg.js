@@ -1,0 +1,22 @@
+import"../chunks/CWj6FrbW.js";import"../chunks/69_IOA4Y.js";import{m as p,n as g,o as a,p as r,q as t,r as b}from"../chunks/BEXab77u.js";import{H as O}from"../chunks/u75EwaVn.js";import{P as c}from"../chunks/C_D4TOu8.js";import{M as n}from"../chunks/BTDwyb5B.js";import{T as E}from"../chunks/CMyx6b9d.js";import{D as F}from"../chunks/CPeg-Zq0.js";import{P}from"../chunks/M3lTRSDe.js";import{C as j}from"../chunks/BrnW0Io5.js";var G=p("<b>Наибольший общий делитель</b> чисел <!> и <!> &mdash; число",1),I=p("<!> <!>",1),J=p(`Когда оба числа равны <!>, результат <!> не определен,
+        так как подойдет любое число.
+        Будем в таком случае считать, что <!>.
+        Тогда <!>.`,1),K=p(`Несколько примеров таких колец.
+        Целые числа <!> и евклидова норма <!>,
+        кольца многочленов <!> и евклидова норма <!>,
+        гауссовы числа <!> и евклидова норма <!>.`,1),L=p("<!> <!> <!>",1),N=p(`Для нахождения наибольшего общего делителя двух чисел можно применить <b>алгоритм Евклида</b>.
+        Основан этот алгоритм на следующем факте`,1),Q=p("<!> <!> <!> <!> <!>",1),S=p("Отсюда получается, что алгоритм работает за время <!>.",1),U=p("<!> <!>",1),V=p("<!> <!>",1),W=p("<!> <!> <!> <!> <!> <!> <!> <!> <!> <!> <!>",1);function vr(z){var u=W(),w=g(u);E(w,{title:"Алгоритм Евклида"});var y=r(w,2);F(y,{title:"Наибольший общий делитель",children:(d,f)=>{var o=I(),s=g(o);c(s,{children:(_,m)=>{var v=G(),e=r(g(v),2);n(e,{m:"a"});var $=r(e,2);n($,{m:"b"}),t(),a(_,v)}});var i=r(s,2);n(i,{display:!0,m:"\\gcd(a, b) \\defeq \\max\\{ g : g \\divides a \\land g \\divides b \\}"}),a(d,o)}});var Z=r(y,2);P(Z,{children:(d,f)=>{var o=L(),s=g(o);c(s,{children:(m,v)=>{t();var e=J(),$=r(g(e));n($,{m:"0"});var l=r($,2);n(l,{m:"\\gcd(0, 0)"});var h=r(l,2);n(h,{m:"\\gcd(0, 0) \\defeq 0"});var x=r(h,2);n(x,{m:"\\gcd(a, 0) = a"}),t(),a(m,e)}});var i=r(s,2);c(i,{children:(m,v)=>{t();var e=b(`Тут надо сразу сказать важную вещь.
+        Наибольший общий делитель существует не только для чисел, а для всего, что может делиться.
+        Это определение, все дальнейшие утверждения и алгоритмы будут справедливы для любых
+        коммутативных колец с единицей, в которых есть евклидова норма.`);a(m,e)}});var _=r(i,2);c(_,{children:(m,v)=>{t();var e=K(),$=r(g(e));n($,{m:"\\ZZ"});var l=r($,2);n(l,{m:"a \\mapsto |a|"});var h=r(l,2);n(h,{m:"\\RR[x]"});var x=r(h,2);n(x,{m:"P \\mapsto \\deg P"});var k=r(x,2);n(k,{m:"\\ZZ[i]"});var B=r(k,2);n(B,{m:"(a + bi) \\mapsto a^2 + b^2"}),t(),a(m,e)}}),a(d,o)}});var q=r(Z,2);P(q,{children:(d,f)=>{var o=Q(),s=g(o);c(s,{children:(e,$)=>{t();var l=N();t(2),a(e,l)}});var i=r(s,2);n(i,{display:!0,m:"\\gcd(a, b) = \\cases{a & \\if b = 0 \\\\ \\gcd(b, a - b) & \\otherwise}"});var _=r(i,2);c(_,{children:(e,$)=>{t();var l=b(`Для ускорения вычислений можно сразу вычитать столько, сколько возможно.
+        Получаем формулу, которую уже можно использовать`);a(e,l)}});var m=r(_,2);n(m,{display:!0,m:"\\gcd(a, b) = \\cases{a & \\if b = 0 \\\\ \\gcd(b, a \\bmod b) & \\otherwise}"});var v=r(m,2);c(v,{children:(e,$)=>{t();var l=b("Ну вот мы и получили алгоритм Евклида.");a(e,l)}}),a(d,o)}});var C=r(q,2);j(C,{code:`function gcd(int a, int b) -> int:
+    if b == 0:
+        return a
+    else:
+        return gcd(b, a % b)`});var D=r(C,2);P(D,{children:(d,f)=>{c(d,{children:(o,s)=>{t();var i=b("Можно избавиться от небольшого оверхеда в рекурсии, переписав через цикл");a(o,i)}})}});var H=r(D,2);j(H,{code:`function gcd(int a, int b) -> int:
+    while b > 0:
+        a %= b
+        swap a, b
+    return a`});var M=r(H,2);P(M,{children:(d,f)=>{var o=U(),s=g(o);c(s,{children:(_,m)=>{t();var v=b(`Давайте грубо оценим время работы алгоритма.
+        Каждую итерацию мы берем остаток от деления наибольшего числа на наименьшее,
+        поэтому наибольшее число уменьшается минимум в два раза.`);a(_,v)}});var i=r(s,2);c(i,{children:(_,m)=>{t();var v=S(),e=r(g(v));n(e,{m:"O\\left( \\log \\big( \\min(a, b) \\big) \\right)"}),t(),a(_,v)}}),a(d,o)}});var R=r(M,2);O(R,{children:(d,f)=>{t();var o=b("Расширенный алгоритм Евклида");a(d,o)}});var T=r(R,2);O(T,{children:(d,f)=>{t();var o=b("Быстрый алгоритм Евклида");a(d,o)}});var A=r(T,2);P(A,{children:(d,f)=>{var o=V(),s=g(o);c(s,{children:(_,m)=>{t();var v=b("Для быстрого вычисления наибольшего общего делителя двух чисел можно применить следующий факт");a(_,v)}});var i=r(s,2);n(i,{display:!0,m:"\\gcd(a \\cdot b, a \\cdot c) = a \\cdot \\gcd(b, c)"}),a(d,o)}}),a(z,u)}export{vr as component};

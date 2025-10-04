@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="icon" href="../../favicon.svg"/>
+    <link rel="stylesheet" href="../../fonts/Inter/inter.css"/>
+    <link rel="stylesheet" href="../../variables.css"/>
+    <link rel="stylesheet" href="../../global.css"/>
+    <link rel="stylesheet" href="../../katex.css"/>
+
+    <link rel="stylesheet" media="print" href="../../print.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    
+		<link href="../../_app/immutable/assets/Link.Cb7NHG_N.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/0._avqqY0J.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/2.DXAScjb8.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/Title.DPHn_YVg.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/Par.BwXx57Vq.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/P.B2DWHBcA.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/Icon.D0g2C4hd.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/Block.BtU7xAom.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/InternalCode.2GoAPbuH.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/Code.k2n02gQm.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/Heading.B4n5dO8q.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/Subheading.PZ7MELIW.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/Codeblock.CTVfIT4f.css" rel="stylesheet">
+		<link rel="modulepreload" href="../../_app/immutable/entry/start.DeN95ygA.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/Cc5A5apB.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/Bwi013b1.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/BEXab77u.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/DIeogL5L.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/DnQB3qBa.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/01Fua-AH.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/ChB291p6.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/D0wWDGrt.js">
+		<link rel="modulepreload" href="../../_app/immutable/entry/app.De1V-YLp.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/CWj6FrbW.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/9cHj1Hla.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/CPa1Fcjd.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/CrpPyElB.js">
+		<link rel="modulepreload" href="../../_app/immutable/nodes/0.DB1d3GTm.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/BjJhFedE.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/CoCvfZHq.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/C4Ldqob_.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/BUEPlj4d.js">
+		<link rel="modulepreload" href="../../_app/immutable/nodes/2.BZvhkOy2.js">
+		<link rel="modulepreload" href="../../_app/immutable/nodes/119.obRAS07_.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/69_IOA4Y.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/CMyx6b9d.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/M3lTRSDe.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/C_D4TOu8.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/CPeg-Zq0.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/Ck2bifjG.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/DtdoMCty.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/DPRrKhiz.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/DeYB6339.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/BiWz2KMV.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/4umS5MWy.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/u75EwaVn.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/Dck_Hiah.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/BrnW0Io5.js"><!--[--><!--]--><!--[--><!--]--><title>Сериализация</title>
+</head>
+<body data-sveltekit-preload-data="hover">
+<div style="display: contents"><!--[--><!--[--><!----><header class="svelte-10uf3cq"><img src="/favicon.svg" alt="" role="presentation" class="svelte-10uf3cq"/> <nav class="svelte-10uf3cq"><a href="/scenario" class="svelte-1txvory colorless"><!---->Сценарий<!----></a><!----></nav></header><!----> <main><!--[--><!----><article class="svelte-1cvbhgs"><!----><div class="title svelte-uw1xhm"><!--[!--><h1 class="svelte-uw1xhm">Сериализация</h1><!--]--></div><!----> <div class="par svelte-nmaj5v"><p class="svelte-cr0fdf"><!---->Очень часто бывает нужно существующий внутри программы объект
+        сохранить в файл, передать по сети или отдать другому процессу. Для
+        этого нужно превратить этот объект в набор байт, который затем мы
+        сможем прочитать и восстановить исходный объект.<!----></p><!----></div><!----> <div class="block svelte-j99or6 definition"><h3 class="svelte-j99or6"><svg viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="svelte-1tf3wrl" style="height: 1.25rem; margin: 0rem;"><path d="M30 40L30 8" stroke="currentColor" stroke-width="6" stroke-linecap="round"></path><path d="M18 40L18 8" stroke="currentColor" stroke-width="6" stroke-linecap="round"></path><path d="M40 18L8 18" stroke="currentColor" stroke-width="6" stroke-linecap="round"></path><path d="M40 30L8 30" stroke="currentColor" stroke-width="6" stroke-linecap="round"></path><!----></svg><!----> <!--[!-->Сериализация<!--]--></h3> <b>Сериализация</b> — процесс превращения состояния объекта в битовую
+    последовательность. Обратный процесс восстановления данных из битовой
+    последовательности называется <b>десериализацией</b>.<!----></div><!----> <div class="block svelte-j99or6 definition"><h3 class="svelte-j99or6"><svg viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="svelte-1tf3wrl" style="height: 1.25rem; margin: 0rem;"><path d="M30 40L30 8" stroke="currentColor" stroke-width="6" stroke-linecap="round"></path><path d="M18 40L18 8" stroke="currentColor" stroke-width="6" stroke-linecap="round"></path><path d="M40 18L8 18" stroke="currentColor" stroke-width="6" stroke-linecap="round"></path><path d="M40 30L8 30" stroke="currentColor" stroke-width="6" stroke-linecap="round"></path><!----></svg><!----> <!--[!-->Маршалинг<!--]--></h3> <b>Маршалинг</b> (marshalling, упорядочивать) — процесс преобразования
+    данных из оперативной памяти в формат, пригодный для хранения или
+    передачи.<!----></div><!----> <div class="par svelte-nmaj5v"><p class="svelte-cr0fdf"><!---->Сериализация и десериализация делаются по правилам, называемыми
+        форматом сериализации. Все форматы можно разделить на человекочитаемые
+        (JSON, XML, CSV) и человеко<b>не</b>читаемые (pickle, CBOR).<!----></p><!----> <p class="svelte-cr0fdf"><!---->Для начала определяется формат сериализации простых типов (чисел,
+        строк, <span class="code svelte-1wp02hy"><code class="language-pseudocode svelte-a2zx4c"><!----><span class="boolean">true</span><!----></code><!----></span><!---->/<span class="code svelte-1wp02hy"><code class="language-pseudocode svelte-a2zx4c"><!----><span class="boolean">false</span><!----></code><!----></span><!---->), а затем способ их комбинации в более сложные
+        объекты. Обычно более сложные объекты — это массивы (упорядоченный
+        набор элементов) и ассоциативные массивы, ключи которых — простые
+        типы, а значения любые.<!----></p><!----> <p class="svelte-cr0fdf"><!---->Некоторые форматы сериализации определяют дополнительные типы: дата,
+        время, <span class="code svelte-1wp02hy"><code class="language-pseudocode svelte-a2zx4c"><!----><span class="boolean">none</span><!----></code><!----></span><!----> и так далее.<!----></p><!----><!----></div><!----> <h1 class="svelte-mdj34r"><!---->Простые типы<!----></h1><!----> <div class="par svelte-nmaj5v"><p class="svelte-cr0fdf"><!---->Здесь мы разберем общие подходы к сериализации простых типов<!----></p><!----></div><!----> <h1 class="svelte-1dact7k"><!---->Числа<!----></h1><!----> <div class="par svelte-nmaj5v"><p class="svelte-cr0fdf"><!---->Числа, в какой бы системе счисления они не были, остаются числами.
+        Для нашей цели передать информацию достаточно представить числа в какой-то одной системе счисления.<!----></p><!----> <p class="svelte-cr0fdf"><!---->Самый простой вариант — просто записать число по символам.<!----></p><!----><!----></div><!----> <h1 class="svelte-mdj34r"><!---->Человекочитаемые форматы<!----></h1><!----> <h1 class="svelte-1dact7k"><!---->JSON<!----></h1><!----> <div class="par svelte-nmaj5v"><p class="svelte-cr0fdf"><!---->JSON (JavaScript Object Notation) — ...<!----></p><!----></div><!----> <div class="codeblock svelte-in28rj"><div class="overflow-box svelte-in28rj"><code class="language-bnf svelte-a2zx4c"><!----><span class="definition keyword syntaxes"><span class="punctuation">&lt;</span>json<span class="punctuation">&gt;</span></span> <span class="operator">::=</span> <span class="syntaxes"><span class="punctuation">&lt;</span>primitive<span class="punctuation">&gt;</span></span> <span class="operator">|</span> <span class="syntaxes"><span class="punctuation">&lt;</span>container<span class="punctuation">&gt;</span></span>
+
+<span class="definition keyword syntaxes"><span class="punctuation">&lt;</span>primitive<span class="punctuation">&gt;</span></span> <span class="operator">::=</span> <span class="syntaxes"><span class="punctuation">&lt;</span>number<span class="punctuation">&gt;</span></span> <span class="operator">|</span> <span class="syntaxes"><span class="punctuation">&lt;</span>string<span class="punctuation">&gt;</span></span> <span class="operator">|</span> <span class="syntaxes"><span class="punctuation">&lt;</span>boolean<span class="punctuation">&gt;</span></span>
+<span class="syntaxes"><span class="punctuation">&lt;</span>number<span class="punctuation">&gt;</span></span> is a valid real number expressed in one of a number of given formats
+<span class="syntaxes"><span class="punctuation">&lt;</span>string<span class="punctuation">&gt;</span></span> is a string of valid characters enclosed in quotes
+<span class="definition keyword syntaxes"><span class="punctuation">&lt;</span>boolean<span class="punctuation">&gt;</span></span> <span class="operator">::=</span> true <span class="operator">|</span> false <span class="operator">|</span> null
+
+<span class="definition keyword syntaxes"><span class="punctuation">&lt;</span>container<span class="punctuation">&gt;</span></span> <span class="operator">::=</span> <span class="syntaxes"><span class="punctuation">&lt;</span>object<span class="punctuation">&gt;</span></span> <span class="operator">|</span> <span class="syntaxes"><span class="punctuation">&lt;</span>array<span class="punctuation">&gt;</span></span>
+<span class="definition keyword syntaxes"><span class="punctuation">&lt;</span>array<span class="punctuation">&gt;</span></span> <span class="operator">::=</span> <span class="string">&apos;[&apos;</span> <span class="operator">[</span> <span class="syntaxes"><span class="punctuation">&lt;</span>json<span class="punctuation">&gt;</span></span> <span class="operator">*</span><span class="operator">(</span><span class="string">&apos;, &apos;</span> <span class="syntaxes"><span class="punctuation">&lt;</span>json<span class="punctuation">&gt;</span></span><span class="operator">)</span> <span class="operator">]</span> <span class="string">&apos;]&apos;</span>
+<span class="definition keyword syntaxes"><span class="punctuation">&lt;</span>object<span class="punctuation">&gt;</span></span> <span class="operator">::=</span> <span class="string">&apos;{&apos;</span> <span class="operator">[</span> <span class="syntaxes"><span class="punctuation">&lt;</span>member<span class="punctuation">&gt;</span></span> <span class="operator">*</span><span class="operator">(</span><span class="string">&apos;, &apos;</span> <span class="syntaxes"><span class="punctuation">&lt;</span>member<span class="punctuation">&gt;</span></span><span class="operator">)</span> <span class="operator">]</span> <span class="string">&apos;}&apos;</span>
+<span class="definition keyword syntaxes"><span class="punctuation">&lt;</span>member<span class="punctuation">&gt;</span></span> <span class="operator">::=</span> <span class="syntaxes"><span class="punctuation">&lt;</span>string<span class="punctuation">&gt;</span></span> <span class="string">&apos;: &apos;</span> <span class="syntaxes"><span class="punctuation">&lt;</span>json<span class="punctuation">&gt;</span></span><!----></code><!----></div></div><!----><!----><!----></article> <div class="svelte-1cvbhgs"></div><!----><!--]--><!----></main><!----><!--]--> <!--[!--><!--]--><!--]-->
+			
+			<script>
+				{
+					__sveltekit_5d7xoa = {
+						base: new URL("../..", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("../../_app/immutable/entry/start.DeN95ygA.js"),
+						import("../../_app/immutable/entry/app.De1V-YLp.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2, 119],
+							data: [null,null,null],
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+</body>
+</html>
