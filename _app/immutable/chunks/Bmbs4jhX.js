@@ -1,0 +1,1 @@
+import"./CWj6FrbW.js";import{m as s,a5 as t,o as e,v as i,a6 as m,w as n}from"./vUuJ8Ryo.js";/* empty css        */var c=s('<p class="svelte-cr0fdf"><!></p>');function v(o,r){var a=c(),p=i(a);t(p,()=>r.children??m),n(a),e(o,a)}export{v as P};

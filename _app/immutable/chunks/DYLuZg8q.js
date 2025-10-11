@@ -1,0 +1,1 @@
+import"./CWj6FrbW.js";import{m as n,v as p,w as s,o as m}from"./vUuJ8Ryo.js";import{p as d}from"./Vqkz38tf.js";import{I as l}from"./Bu2QFN_T.js";/* empty css        */var g=n('<span class="code svelte-1wp02hy"><!></span>');function h(o,e){let r=d(e,"language",3,"pseudocode");var a=g(),t=p(a);l(t,{get language(){return r()},get code(){return e.c}}),s(a),m(o,a)}export{h as C};

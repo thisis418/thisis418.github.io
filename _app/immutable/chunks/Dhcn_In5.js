@@ -1,0 +1,1 @@
+import"./CWj6FrbW.js";import{m as t,v as i,a5 as e,a6 as p,w as l,o as m}from"./vUuJ8Ryo.js";/* empty css        */var n=t('<li class="svelte-fa1o"><!></li>');function f(o,s){var a=n(),r=i(a);e(r,()=>s.children??p),l(a),m(o,a)}export{f as L};
