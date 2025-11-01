@@ -1,0 +1,1 @@
+import"../chunks/CWj6FrbW.js";import"../chunks/69_IOA4Y.js";import{T as o}from"../chunks/CcX1cm_-.js";/* empty css                *//* empty css                */import"../chunks/CYtJBVty.js";/* empty css                *//* empty css                */function f(t){o(t,{title:"Дискретная производная"})}export{f as component};
