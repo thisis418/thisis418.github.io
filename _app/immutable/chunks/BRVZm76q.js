@@ -1,0 +1,1 @@
+import"./CWj6FrbW.js";import{f as i,a5 as p,b as t,c as e,a6 as d,r as n}from"./Dqb1_Hg5.js";/* empty css        */var v=i('<div class="proof svelte-17zasab"><!></div>');function l(o,r){var a=v(),s=e(a);p(s,()=>r.children??d),n(a),t(o,a)}export{l as P};

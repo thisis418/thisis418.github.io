@@ -1,0 +1,1 @@
+import"./CWj6FrbW.js";import{f as s,a5 as o,a7 as i,b as m,c as n,a6 as p,r as c}from"./Dqb1_Hg5.js";import{s as d}from"./CfZ1R71h.js";/* empty css        */var f=s('<h1 class="svelte-mdj34r"><!></h1>');function b(r,t){var a=f(),e=n(a);o(e,()=>t.children??p),c(a),i(()=>d(a,"id",t.anchor)),m(r,a)}export{b as H};

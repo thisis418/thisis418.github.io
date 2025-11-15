@@ -1,0 +1,1 @@
+import"./CWj6FrbW.js";import{B as n}from"./CF0JTOsr.js";function a(e,t){n(e,{kind:"statement",icon:"spiral",get title(){return t.title},get anchor(){return t.anchor},get children(){return t.children}})}export{a as S};

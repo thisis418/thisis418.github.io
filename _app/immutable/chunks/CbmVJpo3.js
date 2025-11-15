@@ -1,0 +1,1 @@
+import"./CWj6FrbW.js";import{f as s,a5 as t,b as e,c as i,a6 as n,r as m}from"./Dqb1_Hg5.js";/* empty css        */var c=s('<p class="svelte-616rrp"><!></p>');function v(a,p){var r=c(),o=i(r);t(o,()=>p.children??n),m(r),e(a,r)}export{v as P};
