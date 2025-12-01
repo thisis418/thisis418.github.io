@@ -1,0 +1,1 @@
+import"../chunks/CWj6FrbW.js";import"../chunks/69_IOA4Y.js";import{n as r,t as a,b as e}from"../chunks/BWp35gWV.js";import{H as n}from"../chunks/DXKx2xvL.js";function d(t){n(t,{children:(o,i)=>{r();var p=a("Заголовок");e(o,p)}})}export{d as component};

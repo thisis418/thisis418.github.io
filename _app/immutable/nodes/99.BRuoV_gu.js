@@ -1,0 +1,7 @@
+import"../chunks/CWj6FrbW.js";import"../chunks/69_IOA4Y.js";import{f as m,a as i,b as d,s as r,n as l}from"../chunks/BWp35gWV.js";import{T as P}from"../chunks/CR7k0xtG.js";/* empty css                */import{P as g}from"../chunks/B7flgP-x.js";import{M as t}from"../chunks/BqyEoRxA.js";import{T as S}from"../chunks/y0AHHn4v.js";var T=m(`Пусть у нас есть независимые случайные величины <!>.
+        Каждая случайная величина <!> и <!>.`,1),q=m(`Пусть <!> и <!>.
+        Тогда для любого <!>`,1),M=m("<!> <!> <!>",1),y=m("<!> <!>",1);function F(x){var p=y(),s=i(p);P(s,{title:"Оценки Чернова"});var h=r(s,2);S(h,{title:"Оценки Чернова",children:(u,j)=>{var v=M(),f=i(v);g(f,{children:(_,$)=>{l();var e=T(),o=r(i(e));t(o,{m:"\\xi_1, \\xi_2, \\dotsc, \\xi_n"});var a=r(o,2);t(a,{m:"\\xi_i \\in [0, 1]"});var n=r(a,2);t(n,{m:"\\expect \\xi_i = p_i"}),l(),d(_,e)}});var c=r(f,2);g(c,{children:(_,$)=>{l();var e=q(),o=r(i(e));t(o,{m:"S = \\xi_1 + \\xi_2 + \\dotsc + \\xi_n"});var a=r(o,2);t(a,{m:"\\mu = \\expect S = p_1 + p_2 + \\dotsc p_n"});var n=r(a,2);t(n,{m:"\\delta > 0"}),d(_,e)}});var b=r(c,2);t(b,{display:!0,m:`
+    \\prob \\big( S \\ge (1 + \\delta) \\cdot \\mu \\big) \\le \\left( \\frac{e^\\delta}{(1+\\delta)^{1+\\delta}} \\right)^\\mu
+    \\quad\\text{и}\\quad
+    \\prob \\big( S \\le (1 - \\delta) \\cdot \\mu \\big) \\le \\left( \\frac{e^{-\\delta}}{(1-\\delta)^{1-\\delta}} \\right)^\\mu
+    `}),d(u,v)}}),d(x,p)}export{F as component};

@@ -1,0 +1,1 @@
+import"./CWj6FrbW.js";import{f as e,P as i,b as p,c as t,Q as d,r as n}from"./BWp35gWV.js";/* empty css        */var v=e('<div class="par svelte-q2zea3"><!></div>');function f(r,o){var a=v(),s=t(a);i(s,()=>o.children??d),n(a),p(r,a)}export{f as P};

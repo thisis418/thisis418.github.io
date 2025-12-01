@@ -1,0 +1,1 @@
+import"./CWj6FrbW.js";import{B as n}from"./B53uy30Q.js";function o(i,t){n(i,{kind:"definition",icon:"tag",get title(){return t.title},get anchor(){return t.anchor},get children(){return t.children}})}export{o as D};

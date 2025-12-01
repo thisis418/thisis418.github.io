@@ -1,0 +1,1 @@
+import"./CWj6FrbW.js";import{B as r}from"./B53uy30Q.js";function o(t,e){r(t,{kind:"theorem",icon:"lamp",get title(){return e.title},get anchor(){return e.anchor},get children(){return e.children}})}export{o as T};

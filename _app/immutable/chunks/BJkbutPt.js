@@ -1,0 +1,1 @@
+import"./CWj6FrbW.js";import{f as r,P as i,T as m,b as p,c as n,Q as c,r as f}from"./BWp35gWV.js";import{s as d}from"./DvKvArtv.js";/* empty css        */var v=r("<ol><!></ol>");function E(a,e){var s=v();let t;var o=n(s);i(o,()=>e.children??c),f(s),m(l=>t=d(s,1,"svelte-73zp5l",null,t,l),[()=>({wide:e.wide})]),p(a,s)}export{E};

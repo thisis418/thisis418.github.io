@@ -1,0 +1,1 @@
+import"./CWj6FrbW.js";import{B as e}from"./B53uy30Q.js";function i(r,t){e(r,{kind:"fact",icon:"lamp",get title(){return t.title},get anchor(){return t.anchor},get children(){return t.children}})}export{i as F};
